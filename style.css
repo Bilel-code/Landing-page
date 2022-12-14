@@ -1,4 +1,9 @@
 
+
+
+
+
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -6,10 +11,13 @@
     height: 100px;
     gap: 20px;
     
+    
+    
 }
 .logo{
+    font-family: fantasy;
       margin: 100px;
-       size: 24px;
+       font-size: 50px;
        color: #F9FAF8; 
 }
 
@@ -17,7 +25,8 @@ a{
     
     text-decoration: none;
     color: #e5e7eb;
-    size: 18px;
+    font-size: 18px;
+    font-family: monospace;
     
 }
 .right-links{
@@ -28,4 +37,58 @@ a{
 
 .first-container{
     background-color:#1F2937 ;
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+
+
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left:300px;
+    width: 400px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
+
+
+.left p{
+    color: #e5e7eb;
+   font-size: 18px;
+    font-family:monospace;
+
+}
+div{
+    size: 100px;
+}
+.hero-main{
+    
+    color:#F9FAF8 ;
+    font-size: 50px;
+    font:900;
+    font-family: fantasy;
+    
+}
+
+.right{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+img{
+    
+    width: 400px;
+    border-radius: 10px;
+}
+button{
+    border-color: #e5e7eb;
+    border-radius: 3px;
+    background-color: #72d4eff8;
+    text-align: center;
 }
