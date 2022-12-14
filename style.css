@@ -1,0 +1,31 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+    
+}
+.logo{
+      margin: 100px;
+       size: 24px;
+       color: #F9FAF8; 
+}
+
+a{
+    
+    text-decoration: none;
+    color: #e5e7eb;
+    size: 18px;
+    
+}
+.right-links{
+    display: flex;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+.first-container{
+    background-color:#1F2937 ;
+}
