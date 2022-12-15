@@ -92,3 +92,36 @@ button{
     background-color: #72d4eff8;
     text-align: center;
 }
+
+.info{
+    font-size:36px ;
+    text-align: center;
+    margin: 20px;
+    color:#1F2937 ;
+    font-family: fantasy;
+}
+
+.card{
+    
+    width: 200px;
+    text-align: center;
+    
+}
+
+.container-3-1{
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+    
+}
+
+.block{
+    border: 4px solid rgb(14, 90, 243) ;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+    
+}
